@@ -117,6 +117,7 @@ You can jump right into editing this file [here](https://github.com/not-yet-awes
         * [Unreal Editor](https://docs.unrealengine.com/en-US/Engine/Editor/index.html)
         * [Unity Editor](https://docs.unity3d.com/Manual/index.html)
     * [Amethyst](https://github.com/amethyst/amethyst) is active and [has a roadmap](https://amethyst.rs/roadmap) for becoming production-ready.
+    * [Bevy](https://github.com/bevyengine/bevy) is seeing a very rapid development and [has a roadmap](https://github.com/bevyengine/bevy/projects/1) for becoming production-ready.
 
 ## Geometry
 
@@ -214,3 +215,9 @@ There is yet to be a library that handles all of these:
 * Is *fast*
 
 For more feature and performance comparisons for existing Rust XML crates, see [`choose-your-xml-rs`](https://github.com/RazrFalcon/choose-your-xml-rs).
+
+## Bluetooth
+
+There is no stable crate yet that allows to write multiplatform communication with a Bluetooth device:
+* [btleplug](https://github.com/deviceplug/btleplug) is being actively developed and has a plan to support desktop, mobile and web platforms.
+   * A good solution should be something similar to [QT Bluetooth](https://doc.qt.io/qt-5/qtbluetooth-index.html) and allow to write the code once and run it everywhere.
